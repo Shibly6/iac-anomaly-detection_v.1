@@ -1,0 +1,49 @@
+2025-05-28 06:24:08,854 - rich - INFO - Found 28 Terraform files to process
+2025-05-28 06:24:12,193 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public.tf
+2025-05-28 06:24:12,206 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_policy.tf
+2025-05-28 06:24:12,208 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_extra_new_4.tf
+2025-05-28 06:24:12,210 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_extra_new_2.tf
+2025-05-28 06:24:12,212 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_new_3.tf
+2025-05-28 06:24:12,214 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_extra_new_3.tf
+2025-05-28 06:24:12,217 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_extra_new_1.tf
+2025-05-28 06:24:12,219 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_new_4.tf
+2025-05-28 06:24:12,222 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_encrypted.tf
+2025-05-28 06:24:12,223 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_read.tf
+2025-05-28 06:24:12,225 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_extra_new_6.tf
+2025-05-28 06:24:12,228 - rich - INFO - Extracted 2 S3 bucket configurations from data/terraform\misconfig\s3_public_with_logging.tf
+2025-05-28 06:24:12,230 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_read_write.tf
+2025-05-28 06:24:12,232 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_extra_new_7.tf
+2025-05-28 06:24:12,234 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_new_1.tf
+2025-05-28 06:24:12,236 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_new_2.tf
+2025-05-28 06:24:12,238 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\misconfig\s3_public_acl_extra_new_5.tf
+2025-05-28 06:24:12,239 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_acl_new_1.tf
+2025-05-28 06:24:12,242 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_acl_new_2.tf
+2025-05-28 06:24:12,245 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private.tf
+2025-05-28 06:24:12,247 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_explicit.tf
+2025-05-28 06:24:12,248 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_default.tf
+2025-05-28 06:24:12,250 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_acl_new_3.tf
+2025-05-28 06:24:12,255 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_restrictive_policy.tf
+2025-05-28 06:24:12,259 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_owner_control.tf
+2025-05-28 06:24:12,261 - rich - INFO - Extracted 1 S3 bucket configurations from data/terraform\correct\s3_private_acl_new_4.tf
+2025-05-28 06:24:12,264 - rich - INFO - Processed 28 Terraform files, extracted features for 27 S3 buckets
+2025-05-28 06:24:12,267 - anomaly_detector.extraction - INFO - Extracted base features for 27 configurations
+2025-05-28 06:24:12,267 - anomaly_detector.extraction - INFO - Cleaning and validating extracted data...
+2025-05-28 06:24:12,267 - anomaly_detector.extraction - INFO - Initial dataset: 27 configurations
+2025-05-28 06:24:12,268 - anomaly_detector.extraction - INFO - ACL distribution: {'public-read': 10, 'private': 9, 'public-read-write': 6, 'authenticated-read': 2}
+2025-05-28 06:24:12,271 - anomaly_detector.extraction - INFO - Removed 0 exact duplicates, remaining: 27 configurations
+2025-05-28 06:24:12,309 - anomaly_detector - ERROR - Feature extraction failed: name 'log' is not defined
+2025-05-28 06:24:12,476 - anomaly_detector.models - INFO - Using contamination rate: 0.300
+2025-05-28 06:24:13,084 - anomaly_detector.models - INFO - isolation_forest - F1: 0.5714, ROC AUC: 0.3333, Threshold: 0.0000
+2025-05-28 06:24:13,085 - anomaly_detector.models - INFO - isolation_forest - Precision: 0.4000, Recall: 1.0000
+2025-05-28 06:24:13,085 - anomaly_detector.models - INFO - isolation_forest - TP: 2, FP: 3, TN: 0, FN: 0
+2025-05-28 06:24:13,208 - anomaly_detector.models - INFO - one_class_svm - F1: 0.5000, ROC AUC: 0.5000, Threshold: 0.0000
+2025-05-28 06:24:13,209 - anomaly_detector.models - INFO - one_class_svm - Precision: 0.5000, Recall: 0.5000
+2025-05-28 06:24:13,209 - anomaly_detector.models - INFO - one_class_svm - TP: 1, FP: 1, TN: 2, FN: 1
+2025-05-28 06:24:13,636 - anomaly_detector.models - INFO - autoencoder - F1: 0.0000, ROC AUC: 0.0000, Threshold: 0.8081
+2025-05-28 06:24:13,636 - anomaly_detector.models - INFO - autoencoder - Precision: 0.0000, Recall: 0.0000
+2025-05-28 06:24:13,637 - anomaly_detector.models - INFO - autoencoder - TP: 0, FP: 1, TN: 2, FN: 2
+2025-05-28 06:24:18,043 - anomaly_detector.models - INFO - local_outlier_factor - F1: 0.5714, ROC AUC: 0.3333, Threshold: 0.0000
+2025-05-28 06:24:18,043 - anomaly_detector.models - INFO - local_outlier_factor - Precision: 0.4000, Recall: 1.0000
+2025-05-28 06:24:18,043 - anomaly_detector.models - INFO - local_outlier_factor - TP: 2, FP: 3, TN: 0, FN: 0
+2025-05-28 06:24:18,157 - anomaly_detector.models - ERROR - Error creating ensemble: local variable 'f1_score' referenced before assignment
+2025-05-28 06:24:39,051 - anomaly_detector.visualization - WARNING - Could not load data/output/models/ensemble_scores.npy: [Errno 2] No such file or directory: 'data/output/models/ensemble_scores.npy'

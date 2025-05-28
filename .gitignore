@@ -1,0 +1,22 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Terraform-related lock and state files
+*.tfstate
+*.tfstate.backup
+.terraform/
